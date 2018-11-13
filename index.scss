@@ -1,0 +1,24 @@
+@import "@material/button/mdc-button";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.mdc-button {
+  margin-right: 32px;
+  margin-bottom: 48px;
+}
